@@ -1,0 +1,29 @@
+@font-face {
+  font-family: ChelaOne;
+  src: url(../Assets/ChelaOne-Regular.ttf);
+}
+
+.head {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: rgb(212, 109, 199);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 109, 199, 1) 0%,
+    rgba(191, 9, 70, 1) 100%
+  );
+}
+
+.head > img {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.head > h1 {
+  font-family: ChelaOne;
+  font-size: 50px;
+}
